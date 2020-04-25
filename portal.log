@@ -1,0 +1,941 @@
+2020-04-25 02:16:52 [Thread-136] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-29 - Shutdown initiated...
+2020-04-25 02:16:52 [Thread-136] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-29 - Shutdown completed.
+2020-04-25 02:16:53 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 10068 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:16:53 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:16:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:16:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:16:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:16:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-30 - Starting...
+2020-04-25 02:16:53 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:16:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-30 - Start completed.
+2020-04-25 02:16:53 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:16:53 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:16:53 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:16:53 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.886 seconds (JVM running for 4595.889)
+2020-04-25 02:17:17 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 02:17:47 [http-nio-5252-exec-5] INFO  c.p.j.p.controller.UserController - Inside get user method
+2020-04-25 02:17:47 [http-nio-5252-exec-5] INFO  c.p.j.p.controller.UserController - Retrived Users : [User [id=1, email=hello@gmail.com, firstName=hello first, lastName=surname, phoneNumber=8016738127, createdDateString=null, createdDate=2020-04-19 18:00:00.0], User [id=4, email=newemail.gmail.com, firstName=mango, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=7, email=, firstName=mango, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=8, email=, firstName=mango, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=9, email=mango@gmail.com, firstName=firstnamedd, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=10, email= , firstName=firstnamedd, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0]]
+2020-04-25 02:20:34 [Thread-141] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-30 - Shutdown initiated...
+2020-04-25 02:20:34 [Thread-141] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-30 - Shutdown completed.
+2020-04-25 02:20:35 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 10068 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:20:35 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:20:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:20:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:20:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:20:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-31 - Starting...
+2020-04-25 02:20:35 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:20:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-31 - Start completed.
+2020-04-25 02:20:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:20:35 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:20:35 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:20:36 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.119 seconds (JVM running for 4817.989)
+2020-04-25 02:20:58 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 02:20:58 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:20:58 [http-nio-5252-exec-2] ERROR c.p.j.p.controller.UserController - Unable to retrieve the user by given id : Parameter value [4] did not match expected type [java.lang.Long (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [4] did not match expected type [java.lang.Long (n/a)]
+2020-04-25 02:21:30 [http-nio-5252-exec-3] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:21:30 [http-nio-5252-exec-3] ERROR c.p.j.p.controller.UserController - Unable to retrieve the user by given id : Parameter value [9] did not match expected type [java.lang.Long (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [9] did not match expected type [java.lang.Long (n/a)]
+2020-04-25 02:23:32 [Thread-146] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-31 - Shutdown initiated...
+2020-04-25 02:23:32 [Thread-146] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-31 - Shutdown completed.
+2020-04-25 02:23:32 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 10068 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:23:32 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:23:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:23:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:23:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:23:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-32 - Starting...
+2020-04-25 02:23:33 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:23:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-32 - Start completed.
+2020-04-25 02:23:33 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:23:33 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:23:33 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:23:33 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.846 seconds (JVM running for 4995.217)
+2020-04-25 02:24:28 [Thread-151] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-32 - Shutdown initiated...
+2020-04-25 02:24:28 [Thread-151] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-32 - Shutdown completed.
+2020-04-25 02:24:28 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 10068 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:24:28 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:24:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:24:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:24:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:24:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-33 - Starting...
+2020-04-25 02:24:28 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:24:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-33 - Start completed.
+2020-04-25 02:24:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:24:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:24:28 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:24:29 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.818 seconds (JVM running for 5051.153)
+2020-04-25 02:24:46 [Thread-156] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-33 - Shutdown initiated...
+2020-04-25 02:24:46 [Thread-156] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-33 - Shutdown completed.
+2020-04-25 02:24:46 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 10068 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:24:46 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:24:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:24:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:24:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:24:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-34 - Starting...
+2020-04-25 02:24:47 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:24:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-34 - Start completed.
+2020-04-25 02:24:47 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:24:47 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:24:47 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:24:47 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.79 seconds (JVM running for 5069.68)
+2020-04-25 02:24:52 [http-nio-5252-exec-1] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 02:24:52 [http-nio-5252-exec-1] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:24:52 [http-nio-5252-exec-1] INFO  c.p.j.p.controller.UserController - Retrived User : User [id=9, email=mango@gmail.com, firstName=firstnamedd, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0]
+2020-04-25 02:24:52 [http-nio-5252-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.personal.job.portal.bean.ApiResponse["data"]->com.personal.job.portal.domain.User$HibernateProxy$pJGc1mra["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.personal.job.portal.bean.ApiResponse["data"]->com.personal.job.portal.domain.User$HibernateProxy$pJGc1mra["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:404) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:722) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:722) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1433) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:921) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:287) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_171]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_171]
+2020-04-25 02:29:28 [Thread-161] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-34 - Shutdown initiated...
+2020-04-25 02:29:28 [Thread-161] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-34 - Shutdown completed.
+2020-04-25 02:29:28 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 10068 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:29:28 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:29:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:29:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:29:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:29:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-35 - Starting...
+2020-04-25 02:29:29 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:29:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-35 - Start completed.
+2020-04-25 02:29:29 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:29:29 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:29:29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:29:29 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.905 seconds (JVM running for 5351.225)
+2020-04-25 02:30:11 [Thread-166] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-35 - Shutdown initiated...
+2020-04-25 02:30:11 [Thread-166] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-35 - Shutdown completed.
+2020-04-25 02:30:11 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 10068 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:30:11 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:30:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:30:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:30:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:30:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-36 - Starting...
+2020-04-25 02:30:11 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:30:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-36 - Start completed.
+2020-04-25 02:30:11 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:30:11 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:30:11 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:30:12 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.747 seconds (JVM running for 5393.978)
+2020-04-25 02:30:15 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 02:30:15 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:30:15 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Retrived User : Optional[User [id=9, email=mango@gmail.com, firstName=firstnamedd, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0]]
+2020-04-25 02:30:42 [http-nio-5252-exec-3] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:30:42 [http-nio-5252-exec-3] INFO  c.p.j.p.controller.UserController - Retrived User : Optional.empty
+2020-04-25 02:33:22 [Thread-171] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-36 - Shutdown initiated...
+2020-04-25 02:33:22 [Thread-171] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-36 - Shutdown completed.
+2020-04-25 02:33:22 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 10068 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:33:22 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:33:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:33:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:33:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:33:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-37 - Starting...
+2020-04-25 02:33:23 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:33:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-37 - Start completed.
+2020-04-25 02:33:23 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:33:23 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:33:23 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:33:23 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.991 seconds (JVM running for 5585.557)
+2020-04-25 02:33:27 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 02:33:27 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:33:27 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Retrived User : Optional.empty
+2020-04-25 02:33:27 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - optional user : Optional.empty
+2020-04-25 02:34:52 [Thread-176] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-37 - Shutdown initiated...
+2020-04-25 02:34:52 [Thread-176] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-37 - Shutdown completed.
+2020-04-25 02:34:53 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 10068 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:34:53 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:34:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:34:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:34:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:34:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-38 - Starting...
+2020-04-25 02:34:53 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:34:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-38 - Start completed.
+2020-04-25 02:34:53 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:34:53 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:34:53 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:34:53 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.831 seconds (JVM running for 5675.878)
+2020-04-25 02:34:57 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 02:34:57 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:34:57 [http-nio-5252-exec-2] ERROR c.p.j.p.controller.UserController - Unable to retrieve the user by given id : No value present
+2020-04-25 02:38:54 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-38 - Shutdown initiated...
+2020-04-25 02:38:54 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-38 - Shutdown completed.
+2020-04-25 02:39:30 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 15610 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:39:30 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:39:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:39:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:39:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:39:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 02:39:33 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:39:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 02:39:33 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:39:33 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 02:39:33 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 02:39:33 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:39:34 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:39:35 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 5.593 seconds (JVM running for 6.601)
+2020-04-25 02:40:00 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 02:40:01 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:40:01 [http-nio-5252-exec-2] ERROR c.p.j.p.controller.UserController - Unable to retrieve the user by given id : No value present
+2020-04-25 02:40:47 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 02:40:47 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 02:40:47 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 15610 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:40:47 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:40:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:40:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:40:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:40:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-04-25 02:40:49 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:40:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-04-25 02:40:49 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:40:49 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:40:49 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:40:50 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 2.476 seconds (JVM running for 81.445)
+2020-04-25 02:40:51 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 15678 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:40:51 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:40:52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:40:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:40:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:40:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 02:40:53 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:40:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 02:40:53 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:40:53 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 02:40:53 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 02:40:53 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:40:54 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:40:55 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-25 02:40:55 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 5252 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 5252 or configure this application to listen on another port.
+
+2020-04-25 02:40:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 02:40:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 02:41:42 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2020-04-25 02:41:42 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2020-04-25 02:41:42 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 15610 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:41:42 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:41:42 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:41:42 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:41:42 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:41:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2020-04-25 02:41:43 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:41:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2020-04-25 02:41:43 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:41:43 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:41:43 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:41:43 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.358 seconds (JVM running for 134.898)
+2020-04-25 02:41:44 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 15728 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:41:44 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:41:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:41:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:41:46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:41:46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 02:41:46 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:41:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 02:41:47 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:41:47 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 02:41:47 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 02:41:47 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:41:48 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:41:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-25 02:41:48 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 5252 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 5252 or configure this application to listen on another port.
+
+2020-04-25 02:41:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 02:41:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 02:42:10 [http-nio-5252-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 02:42:10 [http-nio-5252-exec-1] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:42:10 [http-nio-5252-exec-1] ERROR c.p.j.p.controller.UserController - Unable to retrieve the user by given id : No value present
+2020-04-25 02:42:40 [http-nio-5252-exec-3] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:42:40 [http-nio-5252-exec-3] INFO  c.p.j.p.controller.UserController - Retrived User : User [id=9, email=mango@gmail.com, firstName=firstnamedd, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0]
+2020-04-25 02:45:36 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 15962 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:45:36 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:45:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:45:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:45:38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:45:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 02:45:38 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:45:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 02:45:38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:45:38 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 02:45:39 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 02:45:39 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:45:39 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:45:40 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 5.27 seconds (JVM running for 5.947)
+2020-04-25 02:45:50 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 02:45:50 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:45:51 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Retrived User : User [id=9, email=mango@gmail.com, firstName=firstnamedd, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0]
+2020-04-25 02:47:16 [http-nio-5252-exec-5] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 02:47:16 [http-nio-5252-exec-5] ERROR c.p.j.p.controller.UserController - Unable to retrieve the user by given id : No value present
+2020-04-25 02:49:34 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 02:49:34 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 02:49:34 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 15962 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:49:34 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:49:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:49:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:49:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:49:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-04-25 02:49:35 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:49:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-04-25 02:49:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:49:35 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:49:35 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:49:36 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.915 seconds (JVM running for 241.953)
+2020-04-25 02:49:37 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 16181 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:49:37 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:49:39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:49:39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:49:39 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:49:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 02:49:39 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:49:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 02:49:40 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:49:40 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 02:49:40 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 02:49:40 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:49:41 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:49:41 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-25 02:49:41 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 5252 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 5252 or configure this application to listen on another port.
+
+2020-04-25 02:49:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 02:49:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 02:51:32 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2020-04-25 02:51:32 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2020-04-25 02:51:32 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 15962 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:51:32 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:51:33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:51:33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:51:33 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:51:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2020-04-25 02:51:33 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:51:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2020-04-25 02:51:33 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:51:33 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:51:33 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:51:34 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.779 seconds (JVM running for 359.554)
+2020-04-25 02:51:35 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 16293 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 02:51:35 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 02:51:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 02:51:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 02:51:37 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 02:51:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 02:51:37 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 02:51:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 02:51:37 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 02:51:37 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 02:51:37 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 02:51:38 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 02:51:38 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 02:51:39 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-25 02:51:39 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 5252 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 5252 or configure this application to listen on another port.
+
+2020-04-25 02:51:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 02:51:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 03:16:57 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2020-04-25 03:16:57 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2020-04-25 10:15:02 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 1833 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 10:15:02 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 10:15:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 10:15:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 10:15:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 10:15:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 10:15:04 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 10:15:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 10:15:05 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 10:15:05 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 10:15:05 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 10:15:05 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 10:15:06 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 10:15:07 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 5.749 seconds (JVM running for 6.641)
+2020-04-25 10:24:52 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 10:24:52 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 10:25:49 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 2527 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 10:25:49 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 10:25:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 10:25:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 10:25:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 10:25:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 10:25:54 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 10:25:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 10:25:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 10:25:55 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 10:25:55 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 10:25:56 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 10:25:58 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 10:26:00 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 12.295 seconds (JVM running for 14.081)
+2020-04-25 10:27:07 [http-nio-5252-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 10:27:23 [http-nio-5252-exec-1] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 10:32:44 [http-nio-5252-exec-1] ERROR c.p.j.p.controller.UserController - Unable to retrieve the user by given id : No value present
+2020-04-25 10:38:12 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 10:38:12 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 10:38:12 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 2527 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 10:38:12 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 10:38:13 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 10:38:13 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 10:38:13 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 10:38:13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-04-25 10:38:13 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 10:38:13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-04-25 10:38:13 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 10:38:13 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 10:38:14 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 10:38:15 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 2.638 seconds (JVM running for 748.998)
+2020-04-25 10:39:10 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2020-04-25 10:39:10 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2020-04-25 10:39:11 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 2527 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 10:39:11 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 10:39:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 10:39:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 10:39:12 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 10:39:12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2020-04-25 10:39:12 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 10:39:12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2020-04-25 10:39:12 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 10:39:12 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 10:39:12 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 10:39:12 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.463 seconds (JVM running for 806.652)
+2020-04-25 10:39:30 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2020-04-25 10:39:30 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2020-04-25 10:39:30 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 2527 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 10:39:30 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 10:39:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 10:39:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 10:39:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 10:39:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2020-04-25 10:39:31 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 10:39:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2020-04-25 10:39:31 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 10:39:31 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 10:39:31 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 10:39:32 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.774 seconds (JVM running for 826.173)
+2020-04-25 10:40:04 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2020-04-25 10:40:04 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2020-04-25 10:40:05 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 2527 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 10:40:05 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 10:40:05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 10:40:05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 10:40:05 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 10:40:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2020-04-25 10:40:06 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 10:40:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2020-04-25 10:40:06 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 10:40:06 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 10:40:06 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 10:40:06 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.409 seconds (JVM running for 860.457)
+2020-04-25 10:42:54 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2020-04-25 10:42:54 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2020-04-25 10:42:55 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 2527 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 10:42:55 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 10:42:55 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 10:42:55 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 10:42:55 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 10:42:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2020-04-25 10:42:55 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 10:42:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2020-04-25 10:42:56 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 10:42:56 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 10:42:56 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 10:42:56 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.738 seconds (JVM running for 1030.548)
+2020-04-25 10:42:58 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 10:43:04 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 10:44:37 [http-nio-5252-exec-2] ERROR c.p.j.p.controller.UserController - Unable to retrieve the user by given id : No value present
+2020-04-25 10:45:25 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 3696 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 10:45:25 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 10:45:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 10:45:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 10:45:29 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 10:45:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 10:45:29 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 10:45:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 10:45:30 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 10:45:30 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 10:45:31 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 10:45:32 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 10:45:34 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 10:45:36 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 12.803 seconds (JVM running for 14.336)
+2020-04-25 10:45:53 [http-nio-5252-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 10:46:06 [http-nio-5252-exec-1] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 11:10:26 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 11:10:26 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 11:10:34 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 3696 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 11:10:34 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 11:10:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 11:10:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 11:10:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 11:10:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-04-25 11:10:35 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 11:10:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-04-25 11:10:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 11:10:35 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 11:10:35 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 11:10:36 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.966 seconds (JVM running for 1513.88)
+2020-04-25 11:21:44 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 5815 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 11:21:44 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 11:21:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 11:21:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 11:21:50 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 11:21:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 11:21:50 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 11:21:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 11:21:51 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 11:21:51 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 11:21:52 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 11:21:52 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 11:21:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 11:21:57 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 14.391 seconds (JVM running for 16.168)
+2020-04-25 11:22:11 [http-nio-5252-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 11:22:11 [http-nio-5252-exec-1] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 11:22:27 [http-nio-5252-exec-1] ERROR c.p.j.p.controller.UserController - Unable to retrieve the user by given id : No value present
+2020-04-25 11:23:02 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 11:23:02 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 11:23:03 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 5815 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 11:23:03 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 11:23:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 11:23:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 11:23:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 11:23:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-04-25 11:23:04 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 11:23:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-04-25 11:23:04 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 11:23:04 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 11:23:05 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 11:23:05 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 2.532 seconds (JVM running for 84.233)
+2020-04-25 11:23:06 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 11:23:06 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 11:42:15 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2020-04-25 11:42:15 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2020-04-25 11:42:16 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 5815 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 11:42:16 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 11:42:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 11:42:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 11:42:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 11:42:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2020-04-25 11:42:17 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:17:44 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:17:44 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:17:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:17:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:17:46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:17:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 12:17:47 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:17:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 12:17:47 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:17:47 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 12:17:47 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 12:17:48 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:17:48 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:17:49 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 5.54 seconds (JVM running for 6.44)
+2020-04-25 12:17:56 [http-nio-5252-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 12:17:56 [http-nio-5252-exec-1] INFO  c.p.j.p.controller.UserController - user info
+2020-04-25 12:18:26 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - user info
+2020-04-25 12:18:54 [http-nio-5252-exec-4] INFO  c.p.j.p.controller.UserController - user info
+2020-04-25 12:24:28 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 12:24:28 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 12:24:28 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:24:28 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:24:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:24:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:24:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:24:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-04-25 12:24:28 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:24:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-04-25 12:24:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:24:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:24:28 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:24:29 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.749 seconds (JVM running for 405.992)
+2020-04-25 12:24:55 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2020-04-25 12:24:55 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2020-04-25 12:24:55 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:24:55 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:24:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:24:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:24:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:24:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2020-04-25 12:24:56 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:24:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2020-04-25 12:24:56 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:24:56 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:24:56 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:24:56 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.581 seconds (JVM running for 433.396)
+2020-04-25 12:25:22 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2020-04-25 12:25:22 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2020-04-25 12:25:22 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:25:22 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:25:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:25:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:25:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:25:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2020-04-25 12:25:22 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:25:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2020-04-25 12:25:23 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:25:23 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:25:23 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:25:23 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.001 seconds (JVM running for 460.248)
+2020-04-25 12:26:27 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2020-04-25 12:26:27 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2020-04-25 12:26:27 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:26:27 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:26:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:26:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:26:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:26:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2020-04-25 12:26:28 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:26:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2020-04-25 12:26:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:26:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:26:28 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:26:28 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.072 seconds (JVM running for 525.504)
+2020-04-25 12:27:01 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2020-04-25 12:27:01 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2020-04-25 12:27:01 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:27:01 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:27:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:27:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:27:01 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:27:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2020-04-25 12:27:02 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:27:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2020-04-25 12:27:02 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:27:02 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:27:02 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:27:02 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.899 seconds (JVM running for 559.265)
+2020-04-25 12:27:15 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 12:27:15 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - user id
+2020-04-25 12:27:15 [http-nio-5252-exec-2] ERROR c.p.j.p.controller.UserController - No class com.personal.job.portal.domain.User entity with id 6 exists!
+2020-04-25 12:29:10 [Thread-29] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2020-04-25 12:29:10 [Thread-29] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2020-04-25 12:29:10 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:29:10 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:29:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:29:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:29:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:29:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2020-04-25 12:29:10 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:29:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2020-04-25 12:29:10 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:29:10 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:29:11 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:29:11 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.915 seconds (JVM running for 688.129)
+2020-04-25 12:29:12 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 12:29:12 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - user id
+2020-04-25 12:32:10 [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2020-04-25 12:32:10 [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2020-04-25 12:32:10 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:32:10 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:32:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:32:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:32:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:32:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2020-04-25 12:32:11 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:32:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2020-04-25 12:32:11 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:32:11 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:32:11 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:32:11 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.709 seconds (JVM running for 868.337)
+2020-04-25 12:32:38 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2020-04-25 12:32:38 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2020-04-25 12:32:38 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:32:38 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:32:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:32:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:32:38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:32:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2020-04-25 12:32:38 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:32:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2020-04-25 12:32:38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:32:38 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:32:38 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:32:39 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.876 seconds (JVM running for 896.054)
+2020-04-25 12:38:57 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 12:39:08 [http-nio-5252-exec-3] INFO  c.p.j.p.controller.UserController - Inside get user method
+2020-04-25 12:39:09 [http-nio-5252-exec-3] INFO  c.p.j.p.controller.UserController - Retrived Users : [User [id=1, email=hello@gmail.com, firstName=hello first, lastName=surname, phoneNumber=8016738127, createdDateString=null, createdDate=2020-04-19 18:00:00.0], User [id=4, email=newemail.gmail.com, firstName=mango, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=7, email=, firstName=mango, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=8, email=, firstName=mango, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=9, email=mango@gmail.com, firstName=sravi, lastName=vegesna, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=10, email= , firstName=firstnamedd, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0]]
+2020-04-25 12:43:14 [http-nio-5252-exec-9] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 12:46:27 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2020-04-25 12:46:27 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2020-04-25 12:46:27 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:46:27 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:46:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:46:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:46:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:46:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2020-04-25 12:46:27 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:46:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2020-04-25 12:46:27 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:46:27 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:46:27 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:46:28 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.731 seconds (JVM running for 1724.974)
+2020-04-25 12:46:30 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 12:46:30 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 12:48:29 [Thread-49] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2020-04-25 12:48:29 [Thread-49] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2020-04-25 12:48:30 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 9149 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 12:48:30 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 12:48:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 12:48:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 12:48:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 12:48:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2020-04-25 12:48:30 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 12:48:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2020-04-25 12:48:30 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 12:48:30 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 12:48:30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 12:48:30 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 0.927 seconds (JVM running for 1847.779)
+2020-04-25 12:48:31 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 12:48:31 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - Inside single get user method
+2020-04-25 12:49:18 [http-nio-5252-exec-4] INFO  c.p.j.p.controller.UserController - Inside get user method
+2020-04-25 12:49:18 [http-nio-5252-exec-4] INFO  c.p.j.p.controller.UserController - Retrived Users : [User [id=1, email=hello@gmail.com, firstName=hello first, lastName=surname, phoneNumber=8016738127, createdDateString=null, createdDate=2020-04-19 18:00:00.0], User [id=4, email=newemail.gmail.com, firstName=mango, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=7, email=, firstName=mango, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=8, email=, firstName=mango, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=9, email=mango@gmail.com, firstName=sravi, lastName=vegesna, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0], User [id=10, email= , firstName=firstnamedd, lastName=orange, phoneNumber=3434564356, createdDateString=null, createdDate=2000-01-12 17:00:00.0]]
+2020-04-25 13:05:46 [http-nio-5252-exec-7] INFO  c.p.j.p.controller.UserController - User info : User [id=null, email=newemail@gmail.com, firstName=jony, lastName=sigh, phoneNumber=432452354235234, createdDateString=null, createdDate=null]
+2020-04-25 13:05:46 [http-nio-5252-exec-7] ERROR c.p.j.p.controller.UserController - Empty fields should not be allowed
+2020-04-25 13:06:21 [http-nio-5252-exec-9] INFO  c.p.j.p.controller.UserController - User info : User [id=null, email=newemail@gmail.com, firstName=jony, lastName=sigh, phoneNumber=4324352348, createdDateString=null, createdDate=null]
+2020-04-25 13:06:21 [http-nio-5252-exec-9] ERROR c.p.j.p.controller.UserController - Empty fields should not be allowed
+2020-04-25 13:08:29 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2020-04-25 13:08:29 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2020-04-25 13:08:55 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 12316 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 13:08:55 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 13:09:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 13:09:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 13:09:00 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 13:09:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 13:09:01 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 13:09:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 13:09:02 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 13:09:02 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 13:09:02 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 13:09:03 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 13:09:05 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 13:09:07 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 13.563 seconds (JVM running for 15.219)
+2020-04-25 13:09:37 [http-nio-5252-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 13:10:59 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 13:10:59 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 13:11:07 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 12316 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 13:11:07 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 13:11:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 13:11:09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 13:11:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 13:11:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-04-25 13:11:09 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 13:11:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-04-25 13:11:09 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 13:11:09 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 13:11:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 13:11:10 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 3.229 seconds (JVM running for 137.787)
+2020-04-25 13:11:13 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 13:11:17 [http-nio-5252-exec-1] INFO  c.p.j.p.controller.UserController - User info : User [id=null, email=newemail@gmail.com, firstName=jony, lastName=sigh, phoneNumber=4324352348, createdDateString=null, createdDate=null]
+2020-04-25 13:11:17 [http-nio-5252-exec-1] ERROR c.p.j.p.controller.UserController - Empty fields should not be allowed
+2020-04-25 13:11:21 [http-nio-5252-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@267d7731 has been closed already] with root cause
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@267d7731 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1092) ~[spring-context-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1107) ~[spring-context-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.method.ControllerAdviceBean.resolveBean(ControllerAdviceBean.java:202) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.getExceptionHandlerMethod(ExceptionHandlerExceptionResolver.java:481) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:381) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.BUILD-SNAPSHOT.jar:5.2.6.BUILD-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_171]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_171]
+2020-04-25 13:11:21 [http-nio-5252-exec-1] ERROR o.a.coyote.http11.Http11Processor - Error processing request
+java.lang.NullPointerException: null
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:412) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_171]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_171]
+2020-04-25 13:11:21 [http-nio-5252-exec-1] WARN  o.a.catalina.connector.CoyoteAdapter - Exception while attempting to add an entry to the access log
+java.lang.NullPointerException: null
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:490) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:403) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_171]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_171]
+2020-04-25 13:11:23 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - User info : User [id=null, email=newemail@gmail.com, firstName=jony, lastName=sigh, phoneNumber=4324352348, createdDateString=2000-2-13, createdDate=null]
+2020-04-25 13:11:53 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 12509 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 13:11:53 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 13:11:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 13:11:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 13:11:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 13:11:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-25 13:11:57 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 13:11:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-25 13:11:58 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 13:11:58 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-25 13:11:58 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-25 13:11:59 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 13:12:00 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 13:12:01 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 9.191 seconds (JVM running for 10.018)
+2020-04-25 13:12:02 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 13:12:04 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - User info : User [id=null, email=newemail@gmail.com, firstName=jony, lastName=sigh, phoneNumber=4324352348, createdDateString=2000-2-13, createdDate=null]
+2020-04-25 13:12:31 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-25 13:12:31 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-25 13:12:31 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Starting JobportalApplication on sravanis-MacBook-Pro.local with PID 12509 (/Users/sravanivegesna/Documents/springDatabase/portal/target/classes started by sravanivegesna in /Users/sravanivegesna/Documents/springDatabase/portal)
+2020-04-25 13:12:31 [restartedMain] INFO  c.p.job.portal.JobportalApplication - No active profile set, falling back to default profiles: default
+2020-04-25 13:12:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 13:12:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-25 13:12:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 13:12:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-04-25 13:12:32 [restartedMain] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-25 13:12:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-04-25 13:12:32 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-25 13:12:32 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-25 13:12:32 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-25 13:12:33 [restartedMain] INFO  c.p.job.portal.JobportalApplication - Started JobportalApplication in 1.379 seconds (JVM running for 41.392)
+2020-04-25 13:15:02 [http-nio-5252-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 13:15:02 [http-nio-5252-exec-2] INFO  c.p.j.p.controller.UserController - User info : User [id=null, email=newemail@gmail.com, firstName=null, lastName=null, phoneNumber=null, createdDateString=null, createdDate=null]
+2020-04-25 13:15:02 [http-nio-5252-exec-2] ERROR c.p.j.p.controller.UserController - Empty fields should not be allowed
+2020-04-25 13:15:21 [http-nio-5252-exec-5] INFO  c.p.j.p.controller.UserController - user info
+2020-04-25 13:15:30 [http-nio-5252-exec-6] INFO  c.p.j.p.controller.UserController - user info
+2020-04-25 13:16:54 [http-nio-5252-exec-8] INFO  c.p.j.p.controller.UserController - user id
+2020-04-25 13:20:12 [http-nio-5252-exec-1] INFO  c.p.j.p.controller.UserController - User info : User [id=null, email=sigh_jonsnow@gmail.com, firstName=jony, lastName=sigh_jonsnow, phoneNumber=432435234, createdDateString=2000-2-13, createdDate=null]
+2020-04-25 13:24:58 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2020-04-25 13:24:58 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
